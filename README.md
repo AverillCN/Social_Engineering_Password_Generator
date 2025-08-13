@@ -1,2 +1,78 @@
-# Social_Engineering_Password_Generator
-A PyQt5-based social engineering password generator that creates potential password combinations from personal information for security testing and strength assessment.
+# 增强版社会工程学密码生成器
+
+一个基于PyQt5的社会工程学密码生成工具，能够根据个人信息生成可能的密码组合，用于安全测试和密码强度评估。
+
+![密码生成器界面](https://picsum.photos/800/450?random=1)
+
+## 功能特点
+
+- 基于个人信息（姓名、生日、电话等）生成可能的密码组合
+- 密码强度评估与可视化（弱/中/强）
+- 灵活的密码复杂度控制（可要求包含大写字母、小写字母、数字、特殊字符）
+- 多种排序方式（按长度、强度、字母顺序等）
+- 支持列表视图和网格视图切换
+- 可设置最大生成数量，避免性能问题
+- 便捷的复制和下载功能
+- 详细的密码组合统计信息
+
+## 安装方法
+
+1. 确保已安装Python 3.6+
+2. 安装依赖包：
+```bash
+pip install pyqt5
+```
+3. 克隆仓库或下载源代码：
+```bash
+git clone https://github.com/yourusername/password-generator.git
+cd password-generator
+```
+4. 运行程序：
+```bash
+python full_password_generator.py
+```
+
+## 使用说明
+
+1. 输入相关个人信息（均为选填）：
+   - 姓名信息
+   - 生日日期
+   - 联系方式（邮箱、电话）
+   - 账号信息（用户名、账号）
+   - 组织和公司信息
+   - 常用短语
+   - 身份证号和工号
+
+2. 配置密码生成选项：
+   - 连接符设置
+   - 通用密码和年份设置
+   - 过滤规则
+   - 密码长度范围
+   - 大小写转换选项
+   - 密码复杂度要求
+   - 最大生成数量
+
+3. 点击"生成密码"按钮生成密码列表
+
+4. 可对结果进行：
+   - 排序（按长度、强度等）
+   - 切换视图模式
+   - 复制选中项或全部结果
+   - 下载结果到文本文件
+
+## 应用场景
+
+- 安全测试人员评估系统密码强度
+- 教育场景中展示弱密码的风险
+- 个人用户检查自己常用密码的安全性
+- 渗透测试中的密码猜测辅助工具
+
+## 许可证
+
+本项目采用MIT许可证 - 详见LICENSE文件
+
+## 注意事项
+
+- 本工具仅用于合法的安全测试和教育目的
+- 使用本工具测试任何系统前，请确保已获得合法授权
+- 作者不对因不当使用本工具造成的任何损失负责
