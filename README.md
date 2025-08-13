@@ -24,8 +24,8 @@ pip install pyqt5
 ```
 3. 克隆仓库或下载源代码：
 ```bash
-git clone https://github.com/yourusername/password-generator.git
-cd password-generator
+git clone https://github.com/AverillCN/Social_Engineering_Password_Generator.git
+cd Social_Engineering_Password_Generator
 ```
 4. 运行程序：
 ```bash
@@ -66,10 +66,6 @@ python full_password_generator.py
 - 教育场景中展示弱密码的风险
 - 个人用户检查自己常用密码的安全性
 - 渗透测试中的密码猜测辅助工具
-
-## 许可证
-
-本项目采用MIT许可证 - 详见LICENSE文件
 
 ## 注意事项
 
